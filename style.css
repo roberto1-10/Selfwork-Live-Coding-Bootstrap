@@ -1,0 +1,91 @@
+:root {
+--yellow: rgb(214,195,48);
+--main: rgb(27,21,64);
+--acc: rgb(187,38,193);
+}
+
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-custom {
+    background-image: url(./media/bg-2.jpg);
+}
+.btn-custom {
+    border:1px solid var(--yellow);
+    color: var(--yellow);
+}
+
+.btn-custom:hover {
+    background-color: var(--yellow);
+    color: var(--main);
+    transition: 0.5s;
+}
+
+.bi-calendar-week {
+    color: var(--yellow);
+}
+
+.data {
+    font-weight: 700;
+}
+
+.section2-custom{
+    background-color: var(--main);
+}
+
+.section3-custom{
+    background-color: var(--main);
+    padding: 130px 50px;
+}
+.calendar-form {
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.section4-custom {
+    background-image: url(./media/bg-3.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.formo-custom {
+    background-color: var(--main);
+    padding: 70px 20px;
+    top:100px;
+}
+
+input {
+    background-color: var(--main);
+    border: none;
+    border-bottom: 1px solid var(--acc);
+}
+
+.btn-custom-form {
+    background-color: var(--yellow);
+}
+
+.section5-custom {
+    background-color: rgb(16, 12, 44) ;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+}
+
+.h2-title {
+    color: var(--yellow);
+}
+
+.section6-custom {
+    background-image: url(./media/game\ arcade.png);
+    background-size: cover;
+    background-position: center;
+}
+
